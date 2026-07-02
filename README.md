@@ -13,6 +13,16 @@ photovoltaic system from an appliance load list.
 > Full run-by-run history in [`LOOP.md`](LOOP.md); evidence bundles under
 > [`.testsprite/runs/`](.testsprite/runs).
 
+## Why this project
+
+I'm a solar energy projects engineer with field experience sizing off-grid PV
+systems in Syria, where unreliable grid power made these installations a
+necessity rather than a luxury. Sizing a system — load list, PV array, battery
+bank, inverter — was a workflow I ran by hand and in spreadsheets on real
+projects. Now, while doing my Master's in Computer Science in Moscow, I built
+this tool to digitize that exact workflow. The formulas and defaults are the
+ones I used professionally.
+
 ## Features
 
 - **Appliance table** — add, edit, and delete rows with appliance name, power
