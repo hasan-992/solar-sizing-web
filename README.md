@@ -5,14 +5,13 @@ photovoltaic system from an appliance load list.
 
 **Live demo:** https://hasan-992.github.io/solar-sizing-web/
 
-> **⚠️ TestSprite dashboard note:** the dashboard shows **3/7 Pass**, but the
-> four `blocked` tests are **not failures** — each blocked run's own failure
-> bundle records the testing agent concluding **"Result: PASS … Success =
-> true"** with the exact expected value observed on the page (a
-> verdict-classification quirk of the testing agent, reproduced across four
-> assertion styles). See the note at the top of [`LOOP.md`](LOOP.md) and the
-> proof bundles under [`.testsprite/runs/`](.testsprite/runs), e.g.
-> [`inverter-v2/failure.json`](.testsprite/runs/inverter-v2/failure.json).
+> **✅ TestSprite: 7/7 tests pass.** Four tests spent several rounds on a
+> `blocked` verdict even while their own failure bundles concluded
+> "Result: PASS … Success = true" with the exact expected values — a
+> verdict-classification quirk that was resolved by replaying the saved
+> scripts (`testsprite test rerun`), which returned clean `passed` verdicts.
+> Full run-by-run history in [`LOOP.md`](LOOP.md); evidence bundles under
+> [`.testsprite/runs/`](.testsprite/runs).
 
 ## Features
 
@@ -53,10 +52,9 @@ The app is verified end-to-end with [TestSprite](https://www.testsprite.com/)
 against the deployed GitHub Pages URL. Seven frontend tests cover adding,
 editing, and deleting appliances; live totals; and the PV / battery / inverter
 sizing calculations (including exact-value checks such as
-`4400 / (5 × 0.8) = 1,100 W`). Three tests report `passed` on the dashboard;
-the other four terminate as `blocked` even though the testing agent's own
-failure bundles conclude "Result: PASS … Success = true" with the correct
-values — see the note at the top of this file and of [`LOOP.md`](LOOP.md).
+`4400 / (5 × 0.8) = 1,100 W`). All seven tests report `passed` on the
+dashboard; see the note at the top of this file and the full verification
+history in [`LOOP.md`](LOOP.md).
 
 Every verification iteration is logged in [`LOOP.md`](LOOP.md) — one row per
 test run — and the failure bundles (result, steps, video, root-cause) are
