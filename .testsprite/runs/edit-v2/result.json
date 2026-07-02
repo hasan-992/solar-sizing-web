@@ -1,0 +1,18 @@
+{
+  "testId": "c2b033d6-c332-4b57-aaa9-8c6b24e259c7",
+  "status": "blocked",
+  "startedAt": "2026-07-02T17:33:38.796Z",
+  "finishedAt": "2026-07-02T17:35:00.557Z",
+  "videoUrl": "https://testsprite-videos.s3.us-east-1.amazonaws.com/64e814e8-e061-700b-01d5-852cda7f7a66/1783013700241165//tmp/67b2fd1f-f394-4daf-b481-bc1df6f67f22/result.webm",
+  "failureAnalysisUrl": null,
+  "snapshotId": "snap_0a6cd01d38c37cee",
+  "runIdIfAvailable": "566141a3-516b-4993-b4e1-e1828dea820f",
+  "codeVersion": "v1",
+  "targetUrl": "https://hasan-992.github.io/solar-sizing-web/",
+  "targetUrlSource": "run",
+  "failedStepIndex": 4,
+  "failureKind": null,
+  "verdict": "blocked",
+  "executionStatus": "completed",
+  "summary": "Blocked before a verdict could be produced: TEST BLOCKED: Task: Verify that increasing the Quantity of an appliance updates Total Connected Load.\n\nActions performed and observable results (all values taken directly from the page during this session):\n- Navigated to the Solar Load Sizing Calculator homepage.\n- LED Lights row visible with Power = 10 W and Quantity = 10 (visible in the Appliances table).\n- Refrigerator row visible with Power = 150 W and Quantity = 1.\n- Television row visible with …"
+}

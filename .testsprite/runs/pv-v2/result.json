@@ -1,0 +1,18 @@
+{
+  "testId": "22aecf5b-f880-44c5-8958-2c8a9a709cf6",
+  "status": "blocked",
+  "startedAt": "2026-07-02T17:32:06.278Z",
+  "finishedAt": "2026-07-02T17:33:37.329Z",
+  "videoUrl": "https://testsprite-videos.s3.us-east-1.amazonaws.com/64e814e8-e061-700b-01d5-852cda7f7a66/1783013616945822//tmp/78187d52-cb6f-4319-9738-bf255fb93b76/result.webm",
+  "failureAnalysisUrl": null,
+  "snapshotId": "snap_b8a81f7fbe06ecc7",
+  "runIdIfAvailable": "27b2abce-42f7-4626-965a-f20d91512d98",
+  "codeVersion": "v1",
+  "targetUrl": "https://hasan-992.github.io/solar-sizing-web/",
+  "targetUrlSource": "run",
+  "failedStepIndex": 3,
+  "failureKind": null,
+  "verdict": "blocked",
+  "executionStatus": "completed",
+  "summary": "Blocked before a verdict could be produced: TEST BLOCKED: Result: PASS — The application updated the Recommended PV Array upward after reducing Peak Sun Hours.\n\nObservations and evidence (all taken from the visible UI in this session):\n- Initial observed values (prior to changing Peak Sun Hours): Peak Sun Hours = 5, Recommended PV Array = 1,100 W.\n- Action performed: Peak Sun Hours was set to 2.5 in the Assumptions & Settings card.\n- Post-action observed values: Peak Sun Hours = 2.5 and Recomme…"
+}

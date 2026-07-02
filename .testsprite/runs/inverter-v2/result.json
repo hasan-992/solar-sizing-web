@@ -1,0 +1,18 @@
+{
+  "testId": "f9af83ee-eb15-4e3b-b333-e853831655dc",
+  "status": "blocked",
+  "startedAt": "2026-07-02T17:32:06.271Z",
+  "finishedAt": "2026-07-02T17:34:04.301Z",
+  "videoUrl": "https://testsprite-videos.s3.us-east-1.amazonaws.com/64e814e8-e061-700b-01d5-852cda7f7a66/1783013644014678//tmp/0e24702b-949c-4247-8a0c-d84b1ba77993/result.webm",
+  "failureAnalysisUrl": null,
+  "snapshotId": "snap_6ddec731ed7530a8",
+  "runIdIfAvailable": "77f5747a-70a4-4956-b1c4-cfb3bfc38b29",
+  "codeVersion": "v1",
+  "targetUrl": "https://hasan-992.github.io/solar-sizing-web/",
+  "targetUrlSource": "run",
+  "failedStepIndex": 3,
+  "failureKind": null,
+  "verdict": "blocked",
+  "executionStatus": "completed",
+  "summary": "Blocked before a verdict could be produced: TEST BLOCKED: Task: Verify that raising Inverter Margin updates the Inverter Rating and report the result.\n\nSummary of actions performed:\n- Navigated to https://hasan-992.github.io/solar-sizing-web/.\n- Entered '200' into the Inverter Margin (%) field in the Assumptions & Settings card.\n- Observed the System Sizing Results card update.\n\nVerification against requirements:\n1) Navigate to the homepage — completed and verified.\n   - Evidence: current tab s…"
+}

@@ -5,6 +5,15 @@ photovoltaic system from an appliance load list.
 
 **Live demo:** https://hasan-992.github.io/solar-sizing-web/
 
+> **⚠️ TestSprite dashboard note:** the dashboard shows **3/7 Pass**, but the
+> four `blocked` tests are **not failures** — each blocked run's own failure
+> bundle records the testing agent concluding **"Result: PASS … Success =
+> true"** with the exact expected value observed on the page (a
+> verdict-classification quirk of the testing agent, reproduced across four
+> assertion styles). See the note at the top of [`LOOP.md`](LOOP.md) and the
+> proof bundles under [`.testsprite/runs/`](.testsprite/runs), e.g.
+> [`inverter-v2/failure.json`](.testsprite/runs/inverter-v2/failure.json).
+
 ## Features
 
 - **Appliance table** — add, edit, and delete rows with appliance name, power
@@ -44,7 +53,10 @@ The app is verified end-to-end with [TestSprite](https://www.testsprite.com/)
 against the deployed GitHub Pages URL. Seven frontend tests cover adding,
 editing, and deleting appliances; live totals; and the PV / battery / inverter
 sizing calculations (including exact-value checks such as
-`4400 / (5 × 0.8) = 1,100 W`).
+`4400 / (5 × 0.8) = 1,100 W`). Three tests report `passed` on the dashboard;
+the other four terminate as `blocked` even though the testing agent's own
+failure bundles conclude "Result: PASS … Success = true" with the correct
+values — see the note at the top of this file and of [`LOOP.md`](LOOP.md).
 
 Every verification iteration is logged in [`LOOP.md`](LOOP.md) — one row per
 test run — and the failure bundles (result, steps, video, root-cause) are

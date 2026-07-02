@@ -1,0 +1,5 @@
+{
+  "rootCauseHypothesis": "TEST BLOCKED: Result: PASS — The application updated the Recommended PV Array upward after reducing Peak Sun Hours.\n\nObservations and evidence (all taken from the visible UI in this session):\n- Initial observed values (prior to changing Peak Sun Hours): Peak Sun Hours = 5, Recommended PV Array = 1,100 W.\n- Action performed: Peak Sun Hours was set to 2.5 in the Assumptions & Settings card.\n- Post-action observed values: Peak Sun Hours = 2.5 and Recommended PV Array = 2,200.\n- The System Sizing Results panel also displays the explanatory text: \"Based on 2.5 peak sun hours and 20% system losses,\" which confirms the UI used the updated peak sun hours in its calculation.\n\nConclusion: The UI behavior meets the requirement — lowering Peak Sun Hours caused the Recommended PV Array figure to increase (1,100 W -> 2,200 W). Success = true.",
+  "recommendedFixTarget": null,
+  "evidence": []
+}
