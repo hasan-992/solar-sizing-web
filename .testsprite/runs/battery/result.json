@@ -1,0 +1,18 @@
+{
+  "testId": "d412ac3b-f6ba-4b51-b42d-0e449cbb68f6",
+  "status": "blocked",
+  "startedAt": "2026-07-02T14:49:38.671Z",
+  "finishedAt": "2026-07-02T14:51:10.970Z",
+  "videoUrl": "https://testsprite-videos.s3.us-east-1.amazonaws.com/64e814e8-e061-700b-01d5-852cda7f7a66/1783003870670247//tmp/41181bf8-d361-4e6a-911d-6b14d77a15ba/result.webm",
+  "failureAnalysisUrl": null,
+  "snapshotId": "snap_5d2112ff3d590faf",
+  "runIdIfAvailable": "64e60cd4-d6f8-4722-a0a9-a749430a0910",
+  "codeVersion": "v1",
+  "targetUrl": "https://hasan-992.github.io/solar-sizing-web/",
+  "targetUrlSource": "run",
+  "failedStepIndex": 2,
+  "failureKind": null,
+  "verdict": "blocked",
+  "executionStatus": "completed",
+  "summary": "Blocked before a verdict could be produced: TEST BLOCKED: Task completed: All required values were observed on the Solar Load Sizing Calculator homepage.\n\nObservations (verifiable on the page and in the screenshot):\n- Total Daily Energy: \"4,400 Wh/day\" (visible in the totals area).\n- System Voltage: \"48\" (visible in Assumptions & Settings).\n- Depth of Discharge: \"50\" (visible in Assumptions & Settings).\n- Battery Bank Capacity: \"183 Ah\" (visible in the System Sizing Results card).\n\nCalculation …"
+}

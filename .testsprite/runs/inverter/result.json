@@ -1,0 +1,18 @@
+{
+  "testId": "8ad8ee94-7899-4369-a7df-0775ade855f3",
+  "status": "blocked",
+  "startedAt": "2026-07-02T14:22:45.133Z",
+  "finishedAt": "2026-07-02T14:24:10.819Z",
+  "videoUrl": "https://testsprite-videos.s3.us-east-1.amazonaws.com/64e814e8-e061-700b-01d5-852cda7f7a66/1783002250513749//tmp/102e2f60-127c-4561-bcd7-d854db9f4d89/result.webm",
+  "failureAnalysisUrl": null,
+  "snapshotId": "snap_bf56717fc0a31ef9",
+  "runIdIfAvailable": "0433ef10-d1a3-475b-b23c-9f7d026ba413",
+  "codeVersion": "v1",
+  "targetUrl": "https://hasan-992.github.io/solar-sizing-web/",
+  "targetUrlSource": "run",
+  "failedStepIndex": 3,
+  "failureKind": null,
+  "verdict": "blocked",
+  "executionStatus": "completed",
+  "summary": "Blocked before a verdict could be produced: TEST BLOCKED: TEST PASS\n\nThe Inverter Margin recalculation feature works as expected.\n\nVerification details (observed on the page during this session):\n- Total Connected Load: 330 W\n- Assumptions & Settings -> Inverter Margin (input): 200\n- System Sizing Results -> Inverter Rating: 660 w\n- Inverter Rating caption: '200% of total connected load'\n\nChecks against the user requirements:\n- The Inverter Margin was changed to 200% (observed in the input fiel…"
+}

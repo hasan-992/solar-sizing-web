@@ -1,0 +1,18 @@
+{
+  "testId": "33d85c2d-f4f3-47d8-af03-d65abfac8cce",
+  "status": "blocked",
+  "startedAt": "2026-07-02T14:49:38.753Z",
+  "finishedAt": "2026-07-02T14:51:15.968Z",
+  "videoUrl": "https://testsprite-videos.s3.us-east-1.amazonaws.com/64e814e8-e061-700b-01d5-852cda7f7a66/17830038757656//tmp/61f77604-8fa3-4dc3-88d5-b5c6f00f87da/result.webm",
+  "failureAnalysisUrl": null,
+  "snapshotId": "snap_c44ef912456f687d",
+  "runIdIfAvailable": "143a0f18-798a-4845-b0f9-e1f82e19afb9",
+  "codeVersion": "v1",
+  "targetUrl": "https://hasan-992.github.io/solar-sizing-web/",
+  "targetUrlSource": "run",
+  "failedStepIndex": 5,
+  "failureKind": null,
+  "verdict": "blocked",
+  "executionStatus": "completed",
+  "summary": "Blocked before a verdict could be produced: TEST BLOCKED: TEST PASS\n\nThe application recalculates totals when an appliance quantity is edited.\n\nObservations:\n- On initial load the totals bar showed Total Connected Load = 330 W and Total Daily Energy = 4,400 Wh/day (observed earlier in this session).\n- The LED Lights quantity was changed from 8 to 10 (the Qty input now shows 10).\n- After the edit, the totals area displays Total Connected Load = 350 W and Total Daily Energy = 4,500 Wh/day.\n\nConcl…"
+}

@@ -41,4 +41,15 @@ Pushes to `main` deploy the static build to GitHub Pages via GitHub Actions
 ## Testing
 
 The app is verified end-to-end with [TestSprite](https://www.testsprite.com/)
-against the deployed GitHub Pages URL. See `.claude/skills/testsprite-verify`.
+against the deployed GitHub Pages URL. Seven frontend tests cover adding,
+editing, and deleting appliances; live totals; and the PV / battery / inverter
+sizing calculations (including exact-value checks such as
+`4400 / (5 × 0.8) = 1,100 W`).
+
+Every verification iteration is logged in [`LOOP.md`](LOOP.md) — one row per
+test run — and the failure bundles (result, steps, video, root-cause) are
+committed under [`.testsprite/runs/`](.testsprite/runs). Regenerate the log with:
+
+```bash
+npm run test:loop     # rebuilds LOOP.md from TestSprite run history
+```

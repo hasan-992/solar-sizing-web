@@ -1,0 +1,18 @@
+{
+  "testId": "2786f9ff-e1ae-4a6c-8760-36c19f9774db",
+  "status": "blocked",
+  "startedAt": "2026-07-02T14:50:36.809Z",
+  "finishedAt": "2026-07-02T14:53:15.579Z",
+  "videoUrl": "https://testsprite-videos.s3.us-east-1.amazonaws.com/64e814e8-e061-700b-01d5-852cda7f7a66/1783003995400784//tmp/92064aa2-7f2d-4229-8f91-96031663c6ac/result.webm",
+  "failureAnalysisUrl": null,
+  "snapshotId": "snap_71a06ea9d2e9a097",
+  "runIdIfAvailable": "0193712c-9d72-41fe-8e7c-74346a4e82cc",
+  "codeVersion": "v1",
+  "targetUrl": "https://hasan-992.github.io/solar-sizing-web/",
+  "targetUrlSource": "run",
+  "failedStepIndex": 6,
+  "failureKind": null,
+  "verdict": "blocked",
+  "executionStatus": "completed",
+  "summary": "Blocked before a verdict could be produced: TEST BLOCKED: Task completed.\n\nActions performed and observations (all values taken from the visible page during this session):\n- Peak Sun Hours was set to 4 in the Assumptions & Settings panel.\n- Depth of Discharge was set to 25 in the Assumptions & Settings panel.\n- On the System Sizing Results card, the displayed values are:\n  - Recommended PV Array: 1,375 W\n  - Battery Bank Capacity: 367 Ah\n\nThese observed values meet the user's required assertion…"
+}

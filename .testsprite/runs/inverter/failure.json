@@ -1,0 +1,5 @@
+{
+  "rootCauseHypothesis": "TEST BLOCKED: TEST PASS\n\nThe Inverter Margin recalculation feature works as expected.\n\nVerification details (observed on the page during this session):\n- Total Connected Load: 330 W\n- Assumptions & Settings -> Inverter Margin (input): 200\n- System Sizing Results -> Inverter Rating: 660 w\n- Inverter Rating caption: '200% of total connected load'\n\nChecks against the user requirements:\n- The Inverter Margin was changed to 200% (observed in the input field).\n- The Inverter Rating changed from the earlier value and now equals twice the Total Connected Load (2 x 330 W = 660 W), as shown in the System Sizing Results card.\n\nConclusion: The calculator correctly recalculates the Inverter Rating to reflect the specified Inverter Margin percentage (200%).",
+  "recommendedFixTarget": null,
+  "evidence": []
+}

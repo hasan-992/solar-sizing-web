@@ -1,0 +1,5 @@
+{
+  "rootCauseHypothesis": "TEST BLOCKED: TEST PASS\n\nThe application recalculates totals when an appliance quantity is edited.\n\nObservations:\n- On initial load the totals bar showed Total Connected Load = 330 W and Total Daily Energy = 4,400 Wh/day (observed earlier in this session).\n- The LED Lights quantity was changed from 8 to 10 (the Qty input now shows 10).\n- After the edit, the totals area displays Total Connected Load = 350 W and Total Daily Energy = 4,500 Wh/day.\n\nConclusion: PASS — editing the appliance quantity caused the Total Connected Load and Total Daily Energy to update correctly.",
+  "recommendedFixTarget": null,
+  "evidence": []
+}

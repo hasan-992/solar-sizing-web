@@ -1,0 +1,18 @@
+{
+  "testId": "16191fe7-cb6c-48e8-85d0-4b1072a433d5",
+  "status": "blocked",
+  "startedAt": "2026-07-02T14:59:48.428Z",
+  "finishedAt": "2026-07-02T15:01:17.448Z",
+  "videoUrl": "https://testsprite-videos.s3.us-east-1.amazonaws.com/64e814e8-e061-700b-01d5-852cda7f7a66/178300447631998//tmp/4fc6ef4e-45c5-495d-8e18-97694cb4e96e/result.webm",
+  "failureAnalysisUrl": null,
+  "snapshotId": "snap_1134c1ca82509da7",
+  "runIdIfAvailable": "43d8d41e-194a-4834-a424-cbda2d2fea2e",
+  "codeVersion": "v1",
+  "targetUrl": "https://hasan-992.github.io/solar-sizing-web/",
+  "targetUrlSource": "run",
+  "failedStepIndex": 3,
+  "failureKind": null,
+  "verdict": "blocked",
+  "executionStatus": "completed",
+  "summary": "Blocked before a verdict could be produced: TEST BLOCKED: Summary of verification (observations strictly from this session):\n\nUser request requirements and verification:\n- Navigate to the solar load sizing calculator homepage: Completed earlier in this session (page at https://hasan-992.github.io/solar-sizing-web/ was opened).\n- Note the Recommended PV Array value shown with defaults: Observed earlier on the page as 1,100 W (with Peak Sun Hours = 5 and System Losses = 20%).\n- Change Peak Sun Ho…"
+}

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "cli-v1",
+  "snapshotId": "snap_5d2112ff3d590faf",
+  "testId": "d412ac3b-f6ba-4b51-b42d-0e449cbb68f6",
+  "projectId": "466ee8ff-9eb7-4e97-a670-470777347dd7",
+  "codeVersion": "v1",
+  "runIdIfAvailable": "64e60cd4-d6f8-4722-a0a9-a749430a0910",
+  "targetUrl": "https://hasan-992.github.io/solar-sizing-web/",
+  "failedStepIndex": 2,
+  "failureKind": null,
+  "capturedAt": "2026-07-02T14:51:10.970Z",
+  "fetchedAt": "2026-07-02T14:56:44.513Z"
+}

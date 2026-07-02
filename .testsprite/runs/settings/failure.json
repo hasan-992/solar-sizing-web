@@ -1,0 +1,5 @@
+{
+  "rootCauseHypothesis": "TEST BLOCKED: Task completed.\n\nActions performed and observations (all values taken from the visible page during this session):\n- Peak Sun Hours was set to 4 in the Assumptions & Settings panel.\n- Depth of Discharge was set to 25 in the Assumptions & Settings panel.\n- On the System Sizing Results card, the displayed values are:\n  - Recommended PV Array: 1,375 W\n  - Battery Bank Capacity: 367 Ah\n\nThese observed values meet the user's required assertions. No further actions will be performed.",
+  "recommendedFixTarget": null,
+  "evidence": []
+}
