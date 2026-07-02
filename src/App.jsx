@@ -90,6 +90,10 @@ export default function App() {
           Estimates are for planning purposes. Consult a qualified installer
           before purchasing equipment.
         </p>
+        <p>
+          Built by a solar projects engineer — digitizing a real-world PV
+          sizing workflow.
+        </p>
       </footer>
     </div>
   )
