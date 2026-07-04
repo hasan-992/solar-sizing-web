@@ -27,6 +27,7 @@ export default function SettingsPanel({ settings, setSettings }) {
             </span>
             <input
               type="number"
+              lang="en"
               className="setting-input"
               min={f.min}
               max={f.max}

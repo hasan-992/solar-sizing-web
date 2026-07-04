@@ -73,6 +73,7 @@ export default function ApplianceTable({ appliances, setAppliances, totals }) {
                   <td data-label="Power (W)">
                     <input
                       type="number"
+                      lang="en"
                       min="0"
                       className="cell-input num"
                       value={a.watts}
@@ -83,6 +84,7 @@ export default function ApplianceTable({ appliances, setAppliances, totals }) {
                   <td data-label="Qty">
                     <input
                       type="number"
+                      lang="en"
                       min="0"
                       className="cell-input num"
                       value={a.quantity}
@@ -95,6 +97,7 @@ export default function ApplianceTable({ appliances, setAppliances, totals }) {
                   <td data-label="Hours/day">
                     <input
                       type="number"
+                      lang="en"
                       min="0"
                       max="24"
                       step="0.5"
